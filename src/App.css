@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Fredoka:wght@300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  background-color: rgb(254, 252, 252) !important;
+  color: black;
+  font-family: "Sour Gummy", sans-serif !important;
+
+}
+@media only screen and (max-width: 600px){
+  
+  .herocont{
+    color: rgb(255, 5, 5) !important ;
+    padding: 10px;
+    font-size: 1px !important;
+    padding-top: 50px !important;
+  }
+  .herotext{
+    background-color:none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small !important;
+    margin-top: 40px !important;
+    
+  }
+  .heroimgage{
+    width: 500px !important;
+    margin-top: 29px !important;
+  }
+  .icons{
+    display:block !important;
+    flex-wrap: wrap !important;
+    margin-left: 0px !important;
+  }
+  .iconlinkedin{
+    list-style-type: none;
+    color: rgb(21, 0, 255) !important ;
+    margin-left:2px !important;
+    font-size: 10px !important;
+  }
+  .icongithub{
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    margin-left: 2px;
+    font-size: 10px !important;
+  }
+  .iconinsta{
+    list-style-type: none;
+    color: red;
+    margin-left: 2px;
+    font-size: 10px !important;
+  }
+  .aboutimage{
+    width: 300px !important ;
+  }
+  .aboutmeabo{
+    font-size: 5px !important;
+  }
+  .cardp1{
+    margin-top:20px !important;
+    margin-left: 7px !important;
+    margin-bottom: 40px;
+    cursor: pointer;
+  }
+  .cardtext{
+    justify-content: center !important;
+  }
+  .restext{
+    font-size: 7px !important;
+    /* margin-top: 10px !important !important !important; */
+  }
+  .resby{
+    width: 19px !important;
+    font-size: small !important;
+    border:none !important;
+    height: 19px !important;
+
+
+  }
+  .resbutton{
+    font-size: 4px !important;
+  }
+  .conactdet{
+    font-size: 1px !important;
+  }
+  .textsixe{
+    font-size: 12px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* normail css */
+
+
+
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+
+
+
+.nametitle{
+  color: rgb(0, 246, 242) !important;
+  font-family: "Sour Gummy", sans-serif;
+  border-bottom: 2px solid transparent;
+}
+.nametitle:hover{
+  border-bottom: 2px solid rgb(236, 7, 7);
+  color: white !important;
+}
+.namenav:hover{
+  border-bottom: 2px solid rgb(155, 155, 155);
+  color: rgb(230, 30, 30) !important;
+}
+.namenav{
+  color: rgb(254, 254, 254) !important;
+  font-family: "Sour Gummy", sans-serif;
+}
+.headernaver{
+  background-color: rgb(42, 39, 39) !important;
+  padding: 10px !important;
+  position: fixed !important;
+  z-index: 99999 !important;
+  width:100% !important;
+}
+.togcol{
+  font-size: medium !important;
+  background-color: rgb(140, 142, 141) !important;
+}
+.togcol:hover{
+  background-color: rgb(57, 238, 235) !important;
+}
+.herocont{
+  
+  background-color: black;
+  color: aliceblue;
+}
+.heroimgage{
+  width: 700px ;
+}
+.herotext{
+  color: rgb(255, 255, 255);
+}
+.icons{
+  display: flex;
+  margin-top: 20px;
+  /* margin-left: 260px !important; */
+}
+.iconlinkedin{
+  list-style-type: none;
+  color: rgb(40, 75, 253);
+  margin-right:20px;
+  margin-left: 119px;
+  font-size: 29px;
+}
+.icongithub{
+  list-style-type: none;
+  color: rgb(255, 255, 255);
+  margin-right: 20px;
+  font-size: 29px;
+}
+.iconinsta{
+  list-style-type: none;
+  color: red;
+  margin-right: 20px;
+  font-size: 29px;
+}
+.reax{
+  color: aqua;
+}
+.heronam{
+  color: rgb(255, 0, 0);
+}
+.aboutimage{
+  width: 700px ;
+}
+.abouthead{
+  background-color: black;
+  color: white;
+}
+.aboutmeabo{
+  font-size: 25px;
+  margin-top: auto;
+  padding: 5px;
+}
+.projectcard{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.cardp1{
+  margin-top:70px;
+  margin-left: 70px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.projecthead{
+  background-color: black;
+  color: white;
+}
+
+.prolink{
+  text-decoration: none ;
+  color: black;
+}
+.resbutton{
+  text-decoration: none;
+  color: rgb(111, 106, 106);
+}
+.conactdet{
+  background-color: black;
+  color: white;
+}
+.foot{
+  color: white;
+  background-color: gray;
+  margin-bottom: 0%;
+  padding: 12px;
+  height: 40px;
+}
+.restext{
+  color: rgb(0, 0, 0);
+  margin-top:100px ;
+}
+.reslnk{
+  text-decoration: none;
+  color: orangered;
+}
