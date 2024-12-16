@@ -15,8 +15,8 @@ function Project(){
                 <Card style={{ width: '18rem' }}  className='cardp1'>
                     <Card.Img variant="top" src={p1} />
                     <Card.Body>
-                        <Card.Title className='cardtext'>Flipkart</Card.Title>
-                        <Button variant="info"><Link to={"https://flipkart-react-project-delta.vercel.app/"} target='blank'className='prolink' >Visit </Link></Button>
+                        <Card.Title className='cardtext'>E-Cart</Card.Title>
+                        <Button variant="info"><Link to={"https://m-cart-eta.vercel.app/"} target='blank'className='prolink' >Visit </Link></Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}  className='cardp1'>
